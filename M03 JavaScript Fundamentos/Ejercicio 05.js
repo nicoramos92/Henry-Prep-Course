@@ -10,7 +10,7 @@ function esPositivo(num) {
    // Tu código:
    if (num > 0) return "Es positivo";
    if (num < 0) return "Es negativo";
-   if (num === 0) return false;
+   return false;
 }
 
 function agregarSimboloExclamacion(str) {
@@ -71,9 +71,8 @@ function esVocal(letra) {
    
    if (vocales.includes(letra.toLowerCase())) {
      return "Es vocal";
-   } else {
-     return "Dato incorrecto";
    }
+   return "Dato incorrecto";
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
